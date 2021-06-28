@@ -1,5 +1,8 @@
-#Fork Note
-A forked copy of the excellent inversify-react. The primary driver for forking this library is change-control. The library is not well-established enough to include in production projects directly without an additional layer of abstraction and code-review (which this fork is intended to provide for ablestack projects)
+# Fork Note
+
+This is a forked copy of the excellent [inversify-react library](https://github.com/Kukkimonsuta/inversify-react), intended for ablestack project consumption only. The primary driver for forking this library is change-control. The library is not well-established enough to include in production projects directly without an additional layer of abstraction and code-review (which this fork is intended to provide for ablestack projects)
+
+All the following documentation is from the original [inversify-react project](https://github.com/Kukkimonsuta/inversify-react)
 
 # inversify-react
 
