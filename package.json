@@ -1,7 +1,7 @@
 {
-  "name": "inversify-react",
+  "name": "@ablestack/inversify-react",
   "version": "1.0.0",
-  "description": "Components and decorators to connect react with inversify.",
+  "description": "A copy of Kukkimonsuta/inversify-react - Components and decorators to connect react with inversify - only intended for ablestack consumers",
   "main": "./dist/index.js",
   "typings": "./types/index.d.ts",
   "scripts": {
@@ -10,23 +10,18 @@
     "prod": "npm run copycontent && webpack --mode production",
     "copycontent": "shx rm -f dist/package.json dist/README.md && shx cp package.json README.md dist",
     "prepublishOnly": "npm run prod",
+    "pub": "npm publish --access public",
     "test": "jest --no-cache",
     "test:watch": "jest --no-cache --watchAll"
   },
   "author": {
-    "name": "Lukáš Novotný",
-    "url": "https://github.com/Kukkimonsuta"
+    "name": "jamshally",
+    "url": "https://github.com/jamshally"
   },
-  "contributors": [
-    {
-      "name": "Pavel Pevnitskiy",
-      "url": "https://github.com/fljot"
-    }
-  ],
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kukkimonsuta/inversify-react.git"
+    "url": "https://github.com/ablestack/inversify-react.git"
   },
   "keywords": [
     "inversify",
